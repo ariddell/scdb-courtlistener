@@ -10,3 +10,8 @@ Once the required data is available, the following commands should succeed:
 
     pip install -r requirements.txt
     python3 merge-scdb-courtlistener.py
+
+And you should see something like:
+
+    84 SCDB records have no matches in CourtListener, saving them to /tmp/scdb-unmerged.csv
+    7529 SCDB records have unique matches in CourtListener, saving them to /tmp/scdb-courtlistener.csv
