@@ -98,7 +98,7 @@ cl_unmerged.loc[145898, 'us_cite'] = '556 U.S. 98'  # Kansas v. Colorado
 
 # fix minor idiosyncrasies in SCDB `docket`
 scdb_unmerged.loc['1951-018', 'docket'] = '71 M'  # was "71M"
-scdb_unmerged.loc['2008-033', 'docket_number'] = '105 ORIG'  # was '105, Orig.'
+scdb_unmerged.loc['2008-033', 'docket'] = '105 ORIG'  # was '105, Orig.'
 scdb_unmerged.loc['1953-054', 'docket'] = scdb_unmerged.loc['1953-054', 'docket'].strip()  # whitespace
 
 assert sum(scdb_unmerged['docket'].isnull()) < 10
