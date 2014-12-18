@@ -9,7 +9,7 @@ import tempfile
 import pandas as pd
 
 DATA_DIR = os.path.join(os.path.dirname(__name__), 'data')
-SCDB_FILENAME = os.path.join(DATA_DIR, 'SCDB_2013_01_caseCentered_Citation.csv')
+SCDB_FILENAME = os.path.join(DATA_DIR, 'SCDB_2014_01_caseCentered_Citation.csv')
 # only match cases between these terms (inclusive)
 SCDB_TERM_BEGIN = 1950
 SCDB_TERM_END = 2008
